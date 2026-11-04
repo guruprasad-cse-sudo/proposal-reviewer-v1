@@ -1,0 +1,70 @@
+{
+  "id": "ardb",
+  "name": "AR&DB",
+  "full": "Aeronautics Research & Development Board, DRDO",
+  "portal": "ardb.drdo.gov.in",
+  "order": 2,
+  "rules": {
+    "oneBoardOnly": true,
+    "requireUserLab": "DRDO lab or Services"
+  },
+  "focus": [
+    "aero",
+    "aircraft",
+    "uav",
+    "drone",
+    "propulsion",
+    "avionic",
+    "cfd",
+    "composite",
+    "flight",
+    "helicopter",
+    "turbine",
+    "wing",
+    "airfoil",
+    "missile",
+    "airborne"
+  ],
+  "schemes": {
+    "gia": {
+      "name": "Grant-in-Aid research project",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        2,
+        6
+      ],
+      "kind": "applied",
+      "weights": {
+        "track": 10,
+        "expertise": 15,
+        "merit": 15,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 10,
+        "alignment": 20,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "objectives",
+        "novelty",
+        "methodology",
+        "deliverables",
+        "timeline",
+        "budget",
+        "relevance",
+        "facilities",
+        "references",
+        "trl"
+      ],
+      "tips": [
+        "Use the DRDO ER/RB-01 format: title, type (basic/applied/futuristic), problem statement, aims, deliverables, duration and grant with justification, and novelty.",
+        "The proposal must show how it advances aeronautical R&D for the country: aircraft, helicopters, missiles or other airborne vehicles.",
+        "Proposals go to a specialist panel; expect a presentation. Products and processes are later evaluated by the panel or appointed monitors.",
+        "A PI may submit a given proposal to only one DRDO research board."
+      ]
+    }
+  }
+}

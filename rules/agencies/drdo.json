@@ -1,0 +1,105 @@
+{
+  "id": "drdo",
+  "name": "DRDO",
+  "full": "DRDO Directorate of ER&IPR and DIA-CoEs",
+  "portal": "drdo.gov.in",
+  "order": 4,
+  "rules": {
+    "oneBoardOnly": true,
+    "requireUserLab": "DRDO lab or Services"
+  },
+  "focus": [
+    "defence",
+    "defense",
+    "soldier",
+    "radar",
+    "sensor",
+    "armament",
+    "electronic warfare",
+    "cyber",
+    "security",
+    "battlefield",
+    "surveillance",
+    "materials"
+  ],
+  "schemes": {
+    "erip": {
+      "name": "ER&IPR Grant-in-Aid",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        2,
+        6
+      ],
+      "kind": "applied",
+      "weights": {
+        "track": 10,
+        "expertise": 15,
+        "merit": 15,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 10,
+        "alignment": 20,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "objectives",
+        "novelty",
+        "methodology",
+        "deliverables",
+        "timeline",
+        "budget",
+        "relevance",
+        "facilities",
+        "references",
+        "trl",
+        "ipr"
+      ],
+      "tips": [
+        "The proposal must address a need of DRDO or the Services, with aim, relevance, current status, time period, facilities, deliverables and Co-PI details (ER/RB-01).",
+        "A Project Advisory Committee with ER&IPR and a collaborating DRDO lab reviews the project each year: plan milestones the PAC can verify."
+      ]
+    },
+    "dia": {
+      "name": "DIA-CoE directed research",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        3,
+        6
+      ],
+      "kind": "applied",
+      "weights": {
+        "track": 12,
+        "expertise": 15,
+        "merit": 13,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 10,
+        "alignment": 20,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "objectives",
+        "novelty",
+        "methodology",
+        "deliverables",
+        "timeline",
+        "budget",
+        "relevance",
+        "facilities",
+        "references",
+        "trl",
+        "risk"
+      ],
+      "tips": [
+        "Domain experts review each proposal, and the DIA-CoE Director checks it against DRDO's strategic priorities.",
+        "Define the TRL roadmap explicitly and tie deliverables to the partnering DRDO lab."
+      ]
+    }
+  }
+}

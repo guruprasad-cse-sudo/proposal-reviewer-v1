@@ -1,0 +1,73 @@
+{
+  "id": "mnre",
+  "name": "MNRE",
+  "full": "Ministry of New & Renewable Energy, RE-RTD",
+  "portal": "research.mnre.gov.in",
+  "order": 7,
+  "rules": {
+    "privateCostShare": "Private institutes and industry may receive up to 50% support (70% for low-to-high TRL upgrades with endorsement). Show your cost share.",
+    "requireCostComparison": true,
+    "industryPartnerHelps": true
+  },
+  "focus": [
+    "solar",
+    "photovoltaic",
+    "pv",
+    "wind",
+    "hydrogen",
+    "fuel cell",
+    "biogas",
+    "battery",
+    "storage",
+    "biomass",
+    "geothermal",
+    "renewable",
+    "electrolyser",
+    "electrolyzer"
+  ],
+  "schemes": {
+    "rertd": {
+      "name": "RE Research & Technology Development (RE-RTD)",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        3,
+        7
+      ],
+      "kind": "tech",
+      "trlStatementRequired": true,
+      "weights": {
+        "track": 10,
+        "expertise": 10,
+        "merit": 10,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 25,
+        "alignment": 10,
+        "quality": 10
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "sota",
+        "gap",
+        "novelty",
+        "objectives",
+        "methodology",
+        "timeline",
+        "deliverables",
+        "budget",
+        "references",
+        "trl",
+        "ipr",
+        "risk"
+      ],
+      "tips": [
+        "State the TRL at the beginning and at the end of the project: the call asks for both.",
+        "MNRE funds technology development and demonstration toward manufacture and deployment. Show the commercialisation path and cost per unit against what is on the market.",
+        "Up to 100% support for government and academic institutions; up to 50% for industry, start-ups and private institutes (up to 70% for low-to-high TRL upgrades with endorsement). Plan any cost share.",
+        "Clearly define objectives and list the deliverables. Industry participation strengthens the case."
+      ]
+    }
+  }
+}

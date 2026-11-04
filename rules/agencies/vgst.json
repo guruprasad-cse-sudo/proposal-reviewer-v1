@@ -1,0 +1,154 @@
+{
+  "id": "vgst",
+  "name": "VGST",
+  "full": "Vision Group on Science & Technology, Govt. of Karnataka",
+  "portal": "VGST PPMS portal",
+  "order": 6,
+  "rules": {
+    "requireState": "Karnataka",
+    "oneSchemePerCall": "GRE, K-FIST L1, K-FIST L2 or ECRA"
+  },
+  "focus": [],
+  "schemes": {
+    "gre": {
+      "name": "Grants for Research Excellence (GRE)",
+      "capLakh": null,
+      "maxMonths": 24,
+      "trl": [
+        1,
+        4
+      ],
+      "kind": "basic",
+      "weights": {
+        "track": 15,
+        "expertise": 12,
+        "merit": 20,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 10,
+        "alignment": 8,
+        "quality": 10
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "sota",
+        "gap",
+        "novelty",
+        "objectives",
+        "methodology",
+        "timeline",
+        "deliverables",
+        "budget",
+        "references"
+      ],
+      "tips": [
+        "Open to regular faculty in Karnataka universities, colleges and R&D centres (science, engineering, medicine). Apply only through PPMS.",
+        "Apply to only one of the major schemes (GRE, K-FIST L1, K-FIST L2, ECRA) in a call.",
+        "Due weightage goes to government, SC/ST, minority, KKRDB and backward-taluk institutions: state yours if it applies."
+      ]
+    },
+    "ecra": {
+      "name": "Early Career Research Award (ECRA)",
+      "capLakh": null,
+      "maxMonths": 24,
+      "trl": [
+        1,
+        3
+      ],
+      "kind": "basic",
+      "earlyCareer": true,
+      "weights": {
+        "track": 8,
+        "expertise": 15,
+        "merit": 25,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 8,
+        "alignment": 7,
+        "quality": 12
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "sota",
+        "gap",
+        "novelty",
+        "objectives",
+        "methodology",
+        "timeline",
+        "deliverables",
+        "budget",
+        "references"
+      ],
+      "tips": [
+        "A seed grant to help young researchers start research at their own institution: show what the seed money unlocks next, such as a national grant.",
+        "Apply to only one of GRE, K-FIST L1, K-FIST L2 or ECRA in a call. Check the age limit for the call year."
+      ]
+    },
+    "kfist1": {
+      "name": "K-FIST Level 1 (infrastructure)",
+      "capLakh": null,
+      "maxMonths": 24,
+      "trl": [
+        1,
+        9
+      ],
+      "kind": "infra",
+      "weights": {
+        "track": 15,
+        "expertise": 10,
+        "merit": 10,
+        "feasibility": 15,
+        "budget": 20,
+        "impact": 15,
+        "alignment": 5,
+        "quality": 10
+      },
+      "requiredSections": [
+        "summary",
+        "objectives",
+        "facilities",
+        "budget",
+        "deliverables",
+        "timeline"
+      ],
+      "tips": [
+        "K-FIST supports new or upgraded facilities around a specific research theme. Show who will use each item and how many hours per week.",
+        "Equipment procured must carry a VGST label, and unspent funds can be withdrawn after a year: show a procurement plan that spends on time."
+      ]
+    },
+    "kfist2": {
+      "name": "K-FIST Level 2 (infrastructure)",
+      "capLakh": null,
+      "maxMonths": 24,
+      "trl": [
+        1,
+        9
+      ],
+      "kind": "infra",
+      "weights": {
+        "track": 15,
+        "expertise": 10,
+        "merit": 10,
+        "feasibility": 15,
+        "budget": 20,
+        "impact": 15,
+        "alignment": 5,
+        "quality": 10
+      },
+      "requiredSections": [
+        "summary",
+        "objectives",
+        "facilities",
+        "budget",
+        "deliverables",
+        "timeline"
+      ],
+      "tips": [
+        "Level 2 is the larger infrastructure grant: departments with a track record of using earlier grants well are favoured.",
+        "Tie each instrument to a research theme, named users and expected publications or services."
+      ]
+    }
+  }
+}

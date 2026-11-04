@@ -1,0 +1,97 @@
+{
+  "id": "nrb",
+  "name": "NRB",
+  "full": "Naval Research Board, DRDO",
+  "portal": "drdo.gov.in/naval-research-board",
+  "order": 3,
+  "rules": {
+    "oneBoardOnly": true,
+    "requireUserLab": "naval lab (NMRL, NSTL, NPOL, DMRL)"
+  },
+  "focus": [
+    "naval",
+    "underwater",
+    "sonar",
+    "acoustic",
+    "marine",
+    "ship",
+    "hydrodynamic",
+    "corrosion",
+    "submarine",
+    "ocean",
+    "torpedo",
+    "sea"
+  ],
+  "schemes": {
+    "short": {
+      "name": "Short proposal (stage 1, 2 pages)",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        2,
+        6
+      ],
+      "kind": "applied",
+      "maxWords": 1100,
+      "weights": {
+        "track": 10,
+        "expertise": 15,
+        "merit": 15,
+        "feasibility": 10,
+        "budget": 5,
+        "impact": 10,
+        "alignment": 30,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "deliverables",
+        "relevance",
+        "objectives"
+      ],
+      "tips": [
+        "Stage 1 is a two-page short proposal: project, institution, PI/Co-PI; technical brief; deliverables and outcome (technology, prototype, algorithm, software); thrust area and relevance to naval labs.",
+        "NRB sends it to the relevant naval lab (NMRL, NSTL, NPOL, DMRL). Only if the lab shows interest are you asked for a detailed proposal and panel presentation.",
+        "The outcome must link to a DRDO or Services application. A PI may submit to only one research board."
+      ]
+    },
+    "detailed": {
+      "name": "Detailed proposal (ER/RB-01 format)",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        2,
+        6
+      ],
+      "kind": "applied",
+      "weights": {
+        "track": 10,
+        "expertise": 15,
+        "merit": 15,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 10,
+        "alignment": 20,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "objectives",
+        "novelty",
+        "methodology",
+        "deliverables",
+        "timeline",
+        "budget",
+        "relevance",
+        "facilities",
+        "references",
+        "trl"
+      ],
+      "tips": [
+        "Follow the ER/RB-01 detailed format and keep the naval lab's stated requirement at the centre of the objectives.",
+        "Name the naval lab that endorsed the short proposal and state what they will receive at each milestone."
+      ]
+    }
+  }
+}

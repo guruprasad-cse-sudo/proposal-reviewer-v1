@@ -1,0 +1,53 @@
+{
+  "name": "proposal-reviewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pre-submission review of research proposals to ANRF, AR&DB, NRB, DRDO, ISRO, VGST and MNRE",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "npm run build:web && npm run build:server",
+    "build:web": "vite build --config web/vite.config.ts",
+    "build:server": "esbuild server/src/index.ts --bundle --platform=node --target=node20 --packages=external --outfile=server/dist/index.js",
+    "start": "node server/dist/index.js",
+    "dev:server": "tsx watch server/src/index.ts",
+    "dev:web": "vite --config web/vite.config.ts",
+    "migrate": "tsx server/src/migrate.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cookie-parser": "1.4.7",
+    "dejavu-fonts-ttf": "2.37.3",
+    "docx": "8.5.0",
+    "express": "4.21.2",
+    "jsonwebtoken": "9.0.2",
+    "mammoth": "1.8.0",
+    "multer": "1.4.5-lts.1",
+    "pdf-parse": "1.1.1",
+    "pdfkit": "0.15.1",
+    "pg": "8.13.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.6",
+    "@types/cookie-parser": "1.4.8",
+    "@types/express": "4.17.21",
+    "@types/jsonwebtoken": "9.0.7",
+    "@types/multer": "1.4.12",
+    "@types/node": "20.17.10",
+    "@types/pdfkit": "0.13.8",
+    "@types/pg": "8.11.10",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "esbuild": "0.24.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.0",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8"
+  }
+}

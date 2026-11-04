@@ -1,0 +1,39 @@
+# Render Blueprint: one web service + one Postgres database, Singapore region.
+services:
+  - type: web
+    name: proposal-reviewer
+    runtime: node
+    region: singapore
+    plan: starter
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: proposal-reviewer-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ALLOWED_EMAIL_DOMAINS
+        value: dsatm.edu.in
+      - key: ADMIN_EMAILS
+        sync: false
+      - key: INSTITUTION_NAME
+        value: DSATM
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: CLAUDE_MODEL
+        value: claude-sonnet-5-5
+      - key: AI_DAILY_LIMIT
+        value: "15"
+
+databases:
+  - name: proposal-reviewer-db
+    region: singapore
+    plan: basic-256mb
+    databaseName: reviewer

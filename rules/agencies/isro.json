@@ -1,0 +1,72 @@
+{
+  "id": "isro",
+  "name": "ISRO",
+  "full": "ISRO Sponsored Research (RESPOND)",
+  "portal": "I-GRASP portal",
+  "order": 5,
+  "rules": {
+    "requireThrustTopic": "RESPOND Basket topic",
+    "requireDomainExpert": true,
+    "requireUserLab": "ISRO/DOS centre",
+    "requireUserLabSoft": true
+  },
+  "focus": [
+    "space",
+    "satellite",
+    "launch",
+    "remote sensing",
+    "payload",
+    "orbit",
+    "spacecraft",
+    "gnss",
+    "cryogenic",
+    "rocket",
+    "propellant",
+    "lunar",
+    "planetary"
+  ],
+  "schemes": {
+    "respond": {
+      "name": "RESPOND Basket proposal",
+      "capLakh": null,
+      "maxMonths": 36,
+      "trl": [
+        2,
+        5
+      ],
+      "kind": "applied",
+      "noForeignTravel": true,
+      "weights": {
+        "track": 15,
+        "expertise": 15,
+        "merit": 20,
+        "feasibility": 15,
+        "budget": 10,
+        "impact": 5,
+        "alignment": 15,
+        "quality": 5
+      },
+      "requiredSections": [
+        "summary",
+        "problem",
+        "sota",
+        "gap",
+        "novelty",
+        "objectives",
+        "methodology",
+        "timeline",
+        "deliverables",
+        "budget",
+        "references",
+        "relevance",
+        "facilities"
+      ],
+      "tips": [
+        "Pick a topic from the current RESPOND Basket and quote its code. Submissions go through the I-GRASP portal.",
+        "ISRO/DOS centre experts judge novelty, methodology, approach, the PI's experience in the area, duration and budget.",
+        "The PI must be a domain expert and a full-time employee of the forwarding institution. List related projects funded by other agencies.",
+        "RESPOND funds cannot be used for travel abroad."
+      ]
+    }
+  }
+}
